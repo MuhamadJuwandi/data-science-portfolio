@@ -1,0 +1,123 @@
+§
+    
+#(i0"  ã                   óú  — d Z ddlZddlZddlmZ ddl mZ ddl	m
+Z
+ ddl
+mZ ddl
+Z
+ddlZ ej        ej        d ¬¦  «          ej        e¦  «        Z G d	„ d
+¦  «        Zed
+k    r– e¦   «         Ze                     ¦   «          e                     ¦   «          e                     ¦   «          ej        d         j        d         Z ed
+e› ¦  «         e                     e¦  «        Z eeddg         ¦  «         dS dS )zî
+Hybrid Recommender Model Module.
+
+Combines Collaborative Filtering (SVD) and Content-Based Filtering (TF-IDF)
+to provide personalized anime recommendations.
+Uses scikit-learn for SVD to avoid compilation issues with Surprise on Windows.
+é    N)ÚTruncatedSVD)ÚTfidfVectorizer)Ú
+linear_kernel)Ú
+csr_matrixz)%(asctime)s - %(levelname)s - %(message)s)ÚlevelÚformatc                   ó8   — e Zd Zd
+d„Zd„ Zd„ Zd„ Zd
+d„Z dd	„ZdS )
+ÚHybridRecommenderNc                  ó€  — |r|n_t           j                             t           j                             t           j                             t          ¦  «        ¦  «        dd¦  «        | _        d| _        d| _         d| _        d| _	        d| _
+        d| _
+        d| _        d| _
+        d| _        d| _        d| _        d| _        dS )zŠ
+        Initialize the Hybrid Recommender.
+        
+        Args:
+            data_path (str): Path to processed data directory.
+        ÚdataÚ	processedN)ÚosÚpathÚjoinÚ dirnameÚ__file__Ú	data_pathÚanime_dfÚtrain_dfÚcf_modelÚtfidf_matrixÚ indicesÚ
+user_mapperÚanime_mapperÚuser_inv_mapperÚanime_inv_mapperÚuser_item_matrixÚuser_factorsÚitem_factors)Úselfr   s     úUC:\Users\muham\.gemini\antigravity\scratch\mal-recommender-hybrid\src\hybrid_model.pyÚ__init__zHybridRecommender.__init__   s¸   € ð '0ð  C˜˜µR´W·\²\Å"Ä'Ç/Â/ÕRTÔRY×RaÒRaÕbjÑRkÔRkÑBlÔBlÐntð  wBñ  6Cô  6CˆŒØˆŒ
+ØˆŒ
+ØˆŒ
+Ø ˆÔØˆŒØˆÔØ ˆÔØ#ˆÔØ $ˆÔØ $ˆÔØ ˆÔØ ˆÔÐÐó    c                 ó®  — t                                d¦  «         t          j        t          j                             | j         d¦  «        ¦  «        | _        t          j        t          j                             | j         d¦  «        ¦  «        | _	        t          j
+        | j        j
+        | j        d         ¬¦  «                             ¦   «         | _
+        dS ) zLoad processed parquet files.zLoading data for model...zanime_processed.parquetz
+train.parquetÚanime_id)ÚindexN)ÚloggerÚinfoÚpdÚread_parquetr   r   r   r   r   r   ÚSeriesr&   Údrop_duplicatesr   )r    s    r!   Ú	load_datazHybridRecommender.load_data,   s   € å
+Š
+Ð/Ñ0Ô0Ð0Ýœ­¬ ¯ª°T´^ÐE^Ñ(_Ô(_Ñ`Ô`ˆŒ
+Ýœ­¬ ¯ª°T´^À_Ñ(UÔ(UÑVÔVˆŒ
+õ ”y ¤Ô!4¸D¼MÈ*Ô<UÐVÑVÔV×fÒfÑhÔhˆŒˆˆr#   c                  óö  — t                                d¦  «         | j        d                              ¦   «         }| j        d                              ¦   «         }d„ t	          |¦  «        D ¦   «         | _        d„ t	          |¦  «        D ¦   «         | _        d„ | j                              ¦   «         D ¦   «         | _        d „ | j                              ¦   «         D ¦   «         | _	        | j        d          
+                    | j        ¦  «        }| j        d          
+                    | j        ¦  «        }t          | j        d         ||fft          |¦  «        t          |¦  «        f¬	¦  «        | _
+        t          d
+d
+¬¦  «        | _        | j                             | j
+        ¦  «         | j                             | j
+        ¦  «        | _        | j        j        j        | _        t                                d
+¦  «         dS )z=Build and train Collaborative Filtering model (TruncatedSVD).z/Building Collaborative Filtering model (SVD)...Úusernamer%   c                 ó   — i | ]\  }}||“Œ	S © r1   )Ú.0ÚiÚusers      r!   ú
+<dictcomp>z4HybridRecommender.build_cf_model.<locals>.<dictcomp>>   s   € ÐKÐKÐK© ¨¨4˜D !ÐKÐKÐKr#   c                 ó   — i | ]\  }}||“Œ	S r1   r1   )r2   r3   Úanimes      r!   r5   z4HybridRecommender.build_cf_model.<locals>.<dictcomp>?   s   € ÐNÐNÐN©(¨!¨U˜U AÐNÐNÐNr#   c                 ó   — i | ]\  }}||“Œ	S r1   r1   )r2   r4   r3   s      r!   r5   z4HybridRecommender.build_cf_model.<locals>.<dictcomp>@   s   € ÐPÐPÐP©G¨D°!  4ÐPÐPÐPr#   c                 ó   — i | ]\  }}||“Œ	S r1   r1   )r2   r7   r3   s      r!   r5   z4HybridRecommender.build_cf_model.<locals>.<dictcomp>A   s   € Ð TÐ TÐ T©h¨e°Q  EÐ TÐ TÐ Tr#   Úmy_score)Úshapeé   é*   )Ún_componentsÚrandom_statezCF model trained.N)r'   r(   r   ÚuniqueÚ	enumerater   r   Úitemsr   r   Úmapr   Úlenr   r   r   ÚfitÚ	transformr   Ú
+components_ÚTr   )r    Úunique_usersÚunique_animeÚuser_indicesÚ
+anime_indicess        r!   Úbuild_cf_modelz HybridRecommender.build_cf_model5   s½  € å
+Š
+ÐEÑFÔFÐFð ”} ZÔ0×7Ò7Ñ9Ô9ˆØ”} ZÔ0×7Ò7Ñ9Ô9ˆàKÐKµ9¸\Ñ3JÔ3JÐKÑKÔKˆÔØNÐNµiÀÑ6MÔ6MÐNÑNÔNˆÔØPÐP°tÔ7G×7MÒ7MÑ7OÔ7OÐPÑPÔPˆÔØ TÐ T¸$Ô:K×:QÒ:QÑ:SÔ:SÐ TÑ TÔ TˆÔà”} ZÔ0×4Ò4°TÔ5EÑFÔFˆØœ
+ jÔ1×5Ò5°dÔ6GÑHÔHˆ
+å *Ø
+Œ]˜:Ô
+&¨°}Ð(EÐFÝ|Ñ$Ô$¥c¨,Ñ&7Ô&7Ð8ð!
+ñ !
+ô !
+ˆÔõ %°"À2ÐFÑFÔFˆŒ
+ØŒ
+×Ò˜$Ô/Ñ0Ô0Ð0à œM×3Ò3°DÔ4IÑJÔJˆÔØ œMÔ5Ô7ˆÔå
+Š
+Ð'Ñ(Ô(Ð(Ð(Ð(r#   c                 ó&  — t                                d¦  «         | j        d         dz   | j        d         z   | j        d<   t           dd ¬¦  «        }|                     | j        d         ¦  «        | _        t                                d	¦  «         d
+S )
+z1Build Content-Based model using TF-IDF on Genres.zBuilding Content-Based model...ÚgenreÚ ÚtitleÚ contentÚ englishiˆ  )Ú
+stop_wordsÚmax_featuresz'CB model built (TF-IDF matrix created).N)r'   r(   r   r   Ú
+fit_transformr   )r    Útfidfs     r!   Úbuild_cb_modelz HybridRecommender.build_cb_modelT   s‚   € å
+Š
+Ð5Ñ6Ô6Ð6à#'¤=°Ô#9¸CÑ#?À$Ä-ÐPWÔBXÑ#XˆŒ
+iÑ å¨9À4ÐHÑHÔHˆØ!×/Ò/°´
+¸iÔ0HÑIÔIˆÔå
+Š
+Ð=Ñ>Ô>Ð>Ð>Ð>r#   é
+   ç333333ã?c                 óœ  ‡ ‡— |‰ j         vr3t                               d|› d¦  «         ‰                      |¦  «        S ‰ j         |         }t	          j        ‰ j        |         ‰ j         j        ¦  «        }‰ j	        |         j
+        Šˆfd„t          t          ‰ j
+        ¦  «        ¦  «        D ¦   «         }ˆ fd„|D ¦   «         } ||         }t          j        | |dœ¦  «        }	|	                     dd ¬¦  «                             d	¦  «        }	ˆ fd
+„‰D ¦   «         }
+ˆ fd
+„|
+D ¦   «         }
+|
+rÉt	          j        t	          j        ‰ j        |
+         d¬
+¦  «        ¦  «        }ˆ fd„|	d         D ¦   «         }
+t          |
+¦  «        t          |	¦  «        k    rVt+          |‰ j        |
+         ¦  «                             ¦   «         }dd|z  z   |	d<   ||	d         z  d|z
+  |	d         z  z   |	d<   n|	d         |	d<   n
+|	d         |	d<   |	                     dd ¬¦  «                             |¦  «        }|                     ‰ j        d¬¦  «        }|g d¢         S )z2
+        Generate hybrid recommendations.
+        zUser z. not found. Returning popular recommendations.c                 ó   •— g | ]}|‰v¯|‘Œ	S r1   r1   )r2   r3   Úwatched_indicess     €r!   ú
+<listcomp>z/HybridRecommender.recommend.<locals>.<listcomp>z   s$   ø€ ÐbÐbÐb 1ÈÐRaÐIaÐIa˜QÐIaÐIaÐIar#   c                 ó*   •— g | ]}‰j         |         ‘ŒS r1   ©r   ©r2   r3   r    s     €r!   r^   z/HybridRecommender.recommend.<locals>.<listcomp>~   s!   ø€ ÐSÐSÐS¸A˜tÔ4°QÔ7ÐSÐSÐSr#   )r%   Úcf_scorerb   F©Ú	ascendingéd   c                 ó*   •— g | ]}‰j         |         ‘ŒS r1   r`   ra   s     €r!   r^   z/HybridRecommender.recommend.<locals>.<listcomp>’   s!   ø€ ÐOÐOÐO¸!˜TÔ2°1Ô5ÐOÐOÐOr#   c                 ó<   •— g | ]}|‰j         v ¯
+‰j         |         ‘ŒS r1   ©r   ©r2   Úaidr    s     €r!   r^   z/HybridRecommender.recommend.<locals>.<listcomp>“   s/   ø€ Ð gÐ gÐ g°sÐSVÐZ^ÔZfÐSfÐSf ¤¨cÔ!2ÐSfÐSfÐSfr#   r   )Úaxisc                 ó<   •— g | ]}|‰j         v ¯
+‰j         |         ‘ŒS r1   rh   ri   s     €r!   r^   z/HybridRecommender.recommend.<locals>.<listcomp>™   s/   ø€ Ð&oÐ&oÐ&o¸SÐ[^ÐbfÔbnÐ[nÐ[n t¤|°CÔ'8Ð[nÐ[nÐ[nr#   r%   é   é	   Úcb_scoreÚhybrid_score)Úon)r%   rQ   rO   Úscorerp   Ú	image_url)r   r'   r(   Úget_popular_recommendationsÚnpÚdotr   r   rH   r   r   ÚrangerD   r   r)   Ú	DataFrameÚ
+sort_valuesÚheadÚ asarrayÚmeanr   r   Ú flattenÚmerger   )r    Ú user_idÚn_recommendationsÚalphaÚuser_idxÚ	cf_scoresÚcandidate_indicesÚcandidate_anime_idsÚcandidate_scoresÚ recs_dfÚwatched_anime_idsÚwatched_tfidf_indicesÚuser_profileÚcandidate_tfidf_indicesÚ	cb_scoresÚtop_recsÚresultr]   s   `                @r!   Ú	recommendzHybridRecommender.recommend_   s¢  øø€ ð
+ ˜$Ô*Ð
+*Ð
+*ÝKŠKÐW  ÐWÐWÐWÑXÔXÐXØ×3Ò3Ð4EÑFÔFÐFð Ô# GÔ,ˆõ ”F˜4Ô,¨XÔ6¸Ô8IÔ8KÑLÔLˆ	ð Ô/°Ô9ÔAˆð cÐbÐbÐb­­c°$Ô2CÑ.DÔ.DÑ(EÔ(EÐbÑbÔbÐð TÐSÐSÐSÐARÐSÑSÔSÐØ$Ð%6Ô7Ðå”,Ð,?ÐM]Ð^Ð^Ñ_Ô_ˆ ð ×%Ò% j¸EÐ%ÑBÔB×GÒGÈÑLÔLˆ ð
+ PÐOÐOÐO¸ÐOÑOÔOÐØ gÐ gÐ gÐ gÐ>OÐ gÑ gÔ gÐà
+ ð 	:Ýœ:¥b¤g¨dÔ.?Ð@UÔ.VÐ]^Ð&_Ñ&_Ô&_Ñ`Ô`ˆLð 'pÐ&oÐ&oÐ&oÀGÈJÔDWÐ&oÑ&oÔ&oÐ#õ
+ Ð*Ñ+Ô+­s°7©|¬|Ò;Ð;Ý)¨,¸Ô8IÐJaÔ8bÑcÔc×kÒkÑmÔm	ð '(¨!¨i©-Ñ&7 ˜
+Ñ#Ø*/°'¸*Ô2EÑ*EÈÈUÉÐV]Ð^hÔViÑHiÑ*i ˜Ñ'Ð'à+2°:Ô+>˜Ñ(Ð(à&-¨jÔ&9ˆGNÑ#à×&Ò& ~ÀÐ&ÑGÔG×LÒLÐM^Ñ_Ô_ˆð —’ ¤
+°*Ñ=Ô=ˆØÐZÐZÐZÔ[Ð[r#   c                 óx   — | j                              ddgd¬¦  «                             |¦  «        }|g d¢         S )z9Return top popular anime based on score and member count.Ú	scored_byrr   Frc   )r%   rQ   rO   rr   rs   )r   ry   rz   )r    ÚnÚ populars      r!   rt   z-HybridRecommender.get_popular_recommendations¯   sB   € à”-×+Ò+¨[¸'Ð,BÈeÐ+ÑTÔT×YÒYÐZ[Ñ\Ô\ˆ ØÐKÐKÐKÔLÐLr#   )N)rY   rZ   )rY   )	Ú__name__Ú
+__module__Ú__qualname__r"   r-   rM   rX   r   rt   r1   r#   r!   r
+   r
+      s   € € € € € ð!ð !ð !ð !ð* ið  ið  ið)ð )ð )ð>	?ð 	?ð 	?ðN\ð N\ð N\ð N\ð`Mð Mð Mð Mð Mð Mr#   r
+   Ú__main__r/   zRecommendations for user: rQ   rp   )Ú __doc__Úpandasr)   Únumpyru   Úsklearn.decompositionr   Úsklearn.feature_extraction.textr   Úsklearn.metrics.pairwiser   Úscipy.sparser   r   Ú loggingÚ
+basicConfigÚINFOÚ	getLoggerr”   r'   r
+   Ú
+recommenderr-   rM   rX   r   ÚilocÚ
+sample_userÚprintr   Úrecsr1   r#   r!   ú<module>r¨      s§  ððð ð Ð Ð Ð Ø Ð Ð Ð Ø .Ð .Ð .Ð .Ð .Ð .Ø ;Ð ;Ð ;Ð ;Ð ;Ð ;Ø 2Ð 2Ð 2Ð 2Ð 2Ð 2Ø #Ð #Ð #Ð #Ð #Ð #Ø 	€	€	€	Ø €€€ð € Ô ˜'œ,Ð/ZÐ [Ñ [Ô [Ð [Ø	ˆÔ	˜8Ñ	$Ô	$€ð\Mð \Mð \Mð \Mð \Mñ \Mô \Mð \Mð| ˆzÒÐà#Ð#Ñ%Ô%€KØ×ÒÑÔÐØ×ÒÑ Ô Ð Ø×ÒÑ Ô Ð ð Ô& zÔ2Ô7¸Ô:€KØ	€EÐ
+4 {Ð
+4Ð
+4Ñ5Ô5Ð5Ø
+×
+ Ò
+  Ñ
+-Ô
+-€DØ	€Eˆ$ ˜Ð(Ô
+)Ñ*Ô*Ð*Ð*Ð*ð Ðr#   
