@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Data (Jangan upload data raw yang besar)
+data/raw/*
+!data/raw/.gitkeep
+
+# Environment
+.env
+.venv/
+venv/
+
+# IDE settings
+.vscode/
+.idea/
