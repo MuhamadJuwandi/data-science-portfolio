@@ -1,88 +1,40 @@
-# 🎨 Keunal.id: Creative Brand & Content Hub
+# 🎨 Keunal.id - Creative Content & Design Portfolio
 
-![Keunal.id Banner](https://via.placeholder.com/1000x300?text=Keunal.id+Creative+Banner+Placeholder)
-[![My Skills](https://skillicons.dev/icons?i=figma,ps,ai,xd)](https://skillicons.dev)
-![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge&logo=instagram)
-![Category](https://img.shields.io/badge/Category-Branding_%26_Content-blueviolet?style=for-the-badge)
+![Banner Placeholder](https://via.placeholder.com/1000x300?text=Keunal.id+Banner+Design)
+## 📋 Overview (概要)
+**Keunal.id** is a creative platform focusing on [Jelaskan topik Keunal.id singkat]. This repository showcases my role as a **Content Creator & Graphic Designer**, combining data-driven insights with visual storytelling.
 
-<div align="center">
-  <a href="#-english">🇬🇧 English</a> |
-  <a href="#-japanese">🇯🇵 日本語</a> |
-  <a href="#-bahasa-indonesia">🇮🇩 Bahasa Indonesia</a>
-</div>
+**Keunal.id**は、[Topik]に焦点を当てたクリエイティブなプラットフォームです。このリポジトリでは、データに基づいた洞察と視覚的なストーリーテリングを組み合わせた、**コンテンツクリエイター兼グラフィックデザイナー**としての私の役割を紹介します。
 
 ---
 
-## 🇬🇧 English
+## 🖼️ Article Visuals (記事のビジュアル)
+Visual assets created for the articles in the `/Article` directory.
 
-### 🌟 Project Overview
-**Keunal.id** represents my creative playground where data meets design. This repository hosts the visual assets and written content for the Keunal.id brand. As a Data Scientist with a graphic design background, I believe that **visual communication is key to effective Data Storytelling**.
-
-### 📂 Content Breakdown
-* **📸 /photos**: Contains high-resolution visual assets, Instagram mockups, and brand identity designs.
-* **📝 /draft-articles**: A collection of copywriting drafts, blog posts, and content strategies focused on engagement.
-
-### 🛠️ Tools Used
-* **Design:** Adobe Photoshop, Illustrator, Figma.
-* **Content:** Notion (Planning), Markdown (Writing).
+| Article Title | Visual Asset |
+| :--- | :--- |
+| **Judul Artikel 1** | <img src="assets/img/nama-foto-1.jpg" width="300"> |
+| **Judul Artikel 2** | <img src="assets/img/nama-foto-2.jpg" width="300"> |
 
 ---
 
-## 🇯🇵 Japanese
+## 📸 Instagram Gallery (インスタグラムギャラリー)
+### Social Media Posts (Design & Layout)
+<p align="center">
+  <img src="assets/instagram-content/posts/post-1.jpg" width="30%" />
+  <img src="assets/instagram-content/posts/post-2.jpg" width="30%" />
+  <img src="assets/instagram-content/posts/post-3.jpg" width="30%" />
+</p>
 
-### 🌟 プロジェクト概要 (Project Overview)
-**Keunal.id** は、データとデザインが融合する私のクリエイティブな活動拠点です。このリポジトリには、Keunal.id ブランドの視覚的資産（ビジュアルアセット）とコンテンツ記事が保管されています。
+### Video Content (Reels/Shorts)
+> *Click to view the video content (Video file or Link).*
 
-グラフィックデザインのバックグラウンドを持つデータサイエンティストとして、私は**「視覚的なコミュニケーションこそが、効果的なデータストリーテリングの鍵である」**と信じています。
-
-### 📂 フォルダ構成 (Folder Structure)
-* **📸 /photos**: 高解像度の写真、Instagram のモックアップ、ブランドアイデンティティのデザインが含まれています。
-* **📝 /draft-articles**: コピーライティングの下書き、ブログ記事、エンゲージメントを重視したコンテンツ戦略集です。
-
-### 🛠️ 使用ツール (Tools Used)
-* **デザイン:** Adobe Photoshop, Illustrator, Figma.
-* **コンテンツ管理:** Notion (企画), Markdown (執筆).
-
----
-
-## 🇮🇩 Bahasa Indonesia
-
-### 🌟 Ringkasan Proyek
-**Keunal.id** adalah wadah kreativitas saya di mana data bertemu dengan desain. Repositori ini menyimpan aset visual dan konten tulisan untuk brand Keunal.id. Sebagai seorang Data Scientist dengan latar belakang desain grafis, saya percaya bahwa **komunikasi visual adalah kunci dari Data Storytelling yang efektif**.
-
-### 📂 Isi Direktori
-* **📸 /photos**: Berisi aset visual resolusi tinggi, *mockup* desain Instagram, dan identitas visual *brand*.
-* **📝 /draft-articles**: Kumpulan draf *copywriting*, artikel blog, dan strategi konten yang berfokus pada *engagement*.
+- 🎥 [Video Title 1](assets/instagram-content/videos/video-1.mp4)
+- 🎥 [Video Title 2](assets/instagram-content/videos/video-2.mp4)
 
 ---
 
-## 📸 Visual Gallery Preview
-
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <img src="./photos/sample1.jpg" alt="Design 1" width="100%">
-      <br><b>Instagram Feed Layout</b>
-    </td>
-    <td align="center" width="33%">
-      <img src="./photos/sample2.jpg" alt="Design 2" width="100%">
-      <br><b>Brand Logo Concept</b>
-    </td>
-    <td align="center" width="33%">
-      <img src="./photos/sample3.jpg" alt="Design 3" width="100%">
-      <br><b>Marketing Assets</b>
-    </td>
-  </tr>
-</table>
-
-## 🗂️ Directory Structure
-
-```text
-Keunal.id/
-├── 📄 README.md          # Project Documentation
-├── 📂 photos/            # Design source files & exports
-│   ├── 🖼️ feed_v1.png
-│   └── 🖼️ logo_final.jpg
-└── 📂 draft-articles/    # Content drafts
-    ├── 📝 content_plan.md
-    └── 📝 article_01.txt
+## 🛠️ Tools Used (使用ツール)
+![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
+![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
+![Adobe Premiere Pro](https://img.shields.io/badge/adobe%20premiere%20pro-%239999FF.svg?style=for-the-badge&logo=adobe%20premiere%20pro&logoColor=white)
