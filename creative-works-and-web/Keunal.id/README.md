@@ -1,6 +1,6 @@
 # 🎨 Keunal.id - Data-Driven Creative Lab
 
-![Keunal.id Banner](assets/img/banner.jpg)
+![Keunal.id Banner](Assets/img/banner.jpg)
 
 ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-Data%20Analysis-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -29,8 +29,8 @@ Visual assets and charts created for my articles found in the `/Article` directo
 
 | Article Title & Link | Visual Preview |
 | :--- | :--- |
-| **[📄 Article: Data Trends 2024](./Article/Analisis-Saham.md)**<br>An in-depth look at rising digital trends using Python analysis. | <img src="assets/img/foto-artikel-1.jpg" width="250" alt="Article 1 Cover"> |
-| **[📄 Article: Visual Storytelling](./Article/Tren-Design.md)**<br>Techniques on how to visualize data for non-technical audiences. | <img src="assets/img/foto-artikel-2.jpg" width="250" alt="Article 2 Cover"> |
+| **[📄 Article: Data Trends 2024](./Article/Analisis-Saham.md)**<br>An in-depth look at rising digital trends using Python analysis. | <img src="Assets/img/foto-artikel-1.jpg" width="250" alt="Article 1 Cover"> |
+| **[📄 Article: Visual Storytelling](./Article/Tren-Design.md)**<br>Techniques on how to visualize data for non-technical audiences. | <img src="Assets/img/foto-artikel-2.jpg" width="250" alt="Article 2 Cover"> |
 
 ### 📸 Instagram Portfolio
 A collection of high-performing feeds and reels created for the **@keunal.id** brand.
@@ -44,8 +44,8 @@ A collection of high-performing feeds and reels created for the **@keunal.id** b
 
 #### 2. Video & Reels
 *Click the links below to view the video content:*
-* 🎥 **[Video: Introduction to Data Science](assets/instagram-content/videos/video-intro.mp4)**
-* 🎥 **[Video: Design Tips for Developers](assets/instagram-content/videos/video-tips.mp4)**
+* 🎥 **[Video: Introduction to Data Science](Assets/instagram-content/videos/video-intro.mp4)**
+* 🎥 **[Video: Design Tips for Developers](Assets/instagram-content/videos/video-tips.mp4)**
 
 ---
 
@@ -60,8 +60,8 @@ A collection of high-performing feeds and reels created for the **@keunal.id** b
 
 | 記事タイトル (Title) | プレビュー (Preview) |
 | :--- | :--- |
-| **[📄 記事：2024年のデータトレンド](./Article/Analisis-Saham.md)**<br>Python分析を用いたデジタルトレンドの深掘り。 | <img src="assets/img/foto-artikel-1.jpg" width="250" alt="Article 1"> |
-| **[📄 記事：ビジュアル・ストーリーテリング](./Article/Tren-Design.md)**<br>非技術者向けにデータを視覚化するテクニック。 | <img src="assets/img/foto-artikel-2.jpg" width="250" alt="Article 2"> |
+| **[📄 記事：2024年のデータトレンド](./Article/Analisis-Saham.md)**<br>Python分析を用いたデジタルトレンドの深掘り。 | <img src="Assets/img/foto-artikel-1.jpg" width="250" alt="Article 1"> |
+| **[📄 記事：ビジュアル・ストーリーテリング](./Article/Tren-Design.md)**<br>非技術者向けにデータを視覚化するテクニック。 | <img src="Assets/img/foto-artikel-2.jpg" width="250" alt="Article 2"> |
 
 ### 📸 インスタグラム・ポートフォリオ (Instagram)
 **@keunal.id** ブランドのために作成された、高エンゲージメントのフィードとリール集です。
@@ -75,8 +75,8 @@ A collection of high-performing feeds and reels created for the **@keunal.id** b
 
 #### 2. 動画コンテンツ (Videos)
 *以下のリンクをクリックして動画をご覧ください:*
-* 🎥 **[動画：データサイエンス入門](assets/instagram-content/videos/video-intro.mp4)**
-* 🎥 **[動画：開発者のためのデザインのヒント](assets/instagram-content/videos/video-tips.mp4)**
+* 🎥 **[動画：データサイエンス入門](Assets/instagram-content/videos/video-intro.mp4)**
+* 🎥 **[動画：開発者のためのデザインのヒント](Assets/instagram-content/videos/video-tips.mp4)**
 
 ---
 
@@ -91,8 +91,8 @@ Aset visual dan grafik yang dibuat untuk artikel yang terdapat di direktori `/Ar
 
 | Judul Artikel & Tautan | Pratinjau Visual |
 | :--- | :--- |
-| **[📄 Artikel: Tren Data 2024](./Article/Analisis-Saham.md)**<br>Analisis mendalam tren digital menggunakan Python. | <img src="assets/img/foto-artikel-1.jpg" width="250" alt="Cover Artikel 1"> |
-| **[📄 Artikel: Visual Storytelling](./Article/Tren-Design.md)**<br>Teknik memvisualisasikan data untuk audiens non-teknis. | <img src="assets/img/foto-artikel-2.jpg" width="250" alt="Cover Artikel 2"> |
+| **[📄 Artikel: Tren Data 2024](./Article/Analisis-Saham.md)**<br>Analisis mendalam tren digital menggunakan Python. | <img src="Assets/img/foto-artikel-1.jpg" width="250" alt="Cover Artikel 1"> |
+| **[📄 Artikel: Visual Storytelling](./Article/Tren-Design.md)**<br>Teknik memvisualisasikan data untuk audiens non-teknis. | <img src="Assets/img/foto-artikel-2.jpg" width="250" alt="Cover Artikel 2"> |
 
 ### 📸 Portofolio Instagram
 Koleksi desain feed dan reels berkinerja tinggi yang dibuat untuk brand **@keunal.id**.
@@ -106,8 +106,8 @@ Koleksi desain feed dan reels berkinerja tinggi yang dibuat untuk brand **@keuna
 
 #### 2. Konten Video & Reels
 *Klik tautan di bawah untuk melihat file video:*
-* 🎥 **[Video: Pengenalan Data Science](assets/instagram-content/videos/video-intro.mp4)**
-* 🎥 **[Video: Tips Desain untuk Developer](assets/instagram-content/videos/video-tips.mp4)**
+* 🎥 **[Video: Pengenalan Data Science](Assets/instagram-content/videos/video-intro.mp4)**
+* 🎥 **[Video: Tips Desain untuk Developer](Assets/instagram-content/videos/video-tips.mp4)**
 
 ---
 <br>
