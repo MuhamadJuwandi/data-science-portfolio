@@ -88,9 +88,3 @@ Website profil perusahaan dan katalog produk untuk biro perjalanan Umrah resmi. 
     </td>
   </tr>
 </table>
-
-### 💻 Cara Menjalankan (Installation)
-
-1. Clone repository ini:
-   ```bash
-   git clone [https://github.com/MuhamadJuwandi/umrah-travel-landing.git](https://github.com/MuhamadJuwandi/umrah-travel-landing.git)
