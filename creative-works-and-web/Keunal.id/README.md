@@ -2,7 +2,7 @@
   <img src="Assets/img/logo.png" width="150" alt="Keunal.id Logo">
   <h1>🎨 Keunal.id - Data-Driven Creative Lab</h1>
 </div>
-![Keunal.id Banner](Assets/img/banner.jpg)
+![Keunal.id Banner](assets/img/banner.jpg)
 
 ![Canva](https://img.shields.io/badge/Canva-Social%20Media%20Design-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-Data%20Analysis-3776AB?style=for-the-badge&logo=python&logoColor=white)
