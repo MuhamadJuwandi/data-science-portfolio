@@ -8,7 +8,7 @@
 <p>
   <img src="https://img.shields.io/badge/Canva-Social%20Media%20Design-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white">
   <img src="https://img.shields.io/badge/CapCut-Video%20Editing-000000?style=for-the-badge&logo=capcut&logoColor=white">
-  <img src="https://img.shields.io/badge/Python-Data%20Analysis-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Gemini%20AI-Illustration%20Generator-8E75FF?style=for-the-badge&logo=googlegemini&logoColor=white">  
   <img src="https://img.shields.io/badge/Google%20Workspace-Productivity%20Suite-4285F4?style=for-the-badge&logo=googleworkspace&logoColor=white">
 </p>
 
