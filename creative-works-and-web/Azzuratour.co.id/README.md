@@ -1,29 +1,29 @@
 <div align="center">
 
-<img src="assets/logo.png" alt="Logo" width="80">
+<img src="assets/logo.png" alt="Azzura Tour Logo" width="100">
 
-# 🕋 Umrah Travel Landing Page
-### Professional UI/UX Design & Front-End Implementation
+# 🕌 Azzura Tour & Travel Website
+### Corporate Web Design | Information Architecture | Front-End Dev
 
 <p>
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-  <img src="https://img.shields.io/badge/Responsive-Mobile_First-success?style=for-the-badge&logo=android">
+  <img src="https://img.shields.io/badge/Figma-Prototyping-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
+  <img src="https://img.shields.io/badge/Bootstrap-5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
+  <img src="https://img.shields.io/badge/HTML5-Semantic-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-Modern_Layout-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/JS-Interactivity-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 </p>
 
 [🇬🇧 English](#-english) | [🇯🇵 日本語](#-japanese) | [🇮🇩 Bahasa Indonesia](#-bahasa-indonesia)
 
 <br>
 
-<a href="#">
-  <img src="https://img.shields.io/badge/🚀_Live_Demo-Click_Here-2ea44f?style=for-the-badge">
+<a href="https://azzuratour.co.id/">
+  <img src="https://img.shields.io/badge/🚀_Live_Demo-Visit_Website-2ea44f?style=for-the-badge">
 </a>
 
 <br><br>
 
-<img src="assets/main_mockup.png" alt="Umrah Travel Website Mockup" width="100%">
+<img src="assets/main_mockup.png" alt="Azzura Tour Website Mockup" width="100%">
 
 </div>
 
@@ -32,59 +32,59 @@
 ## 🇬🇧 English
 
 ### 📌 Project Overview
-This project is a high-fidelity **Landing Page for an Umrah Travel Agency**, designed to build trust and facilitate booking conversions. Leveraging my background in **Graphic Design**, I focused on a clean visual hierarchy using a Green & Gold color palette to evoke spiritual tranquility and professionalism.
+A fully responsive corporate website designed for **Azzura Tour**, a licensed Umrah & Hajj travel agency. Unlike standard landing pages, this project focuses heavily on **Information Architecture (IA)** to present complex travel itineraries, legal certifications (PPIU License), and hotel details in a structured, trustworthy manner.
 
 ### 💡 Key Features
-* **Trust-Centric UI:** Prominent placement of testimonials and "Why Choose Us" sections to increase user confidence.
-* **Responsive Pricing Cards:** Clear comparison of Umrah packages (Regular vs. VIP) adapted for mobile views.
-* **Modern CSS Styling:** Utilized Flexbox and Grid for a pixel-perfect layout matching the Figma design.
-* **Interactive Elements:** Smooth hover effects on buttons and cards to enhance User Experience (UX).
+* **Corporate Branding Identity:** Implemented a premium color palette to reflect professionalism and religious tranquility.
+* **Detailed Package Catalog:** Card-based layout displaying itineraries, flight details, and hotel ratings for clear comparison.
+* **Legality & Trust Section:** Prominent display of government licenses (Kemenag RI) to establish immediate user trust.
+* **Responsive Navigation:** Optimized mega-menu and mobile drawer for easy access to "About Us," "Packages," and "Contact" sections.
 
 ---
 
 ## 🇯🇵 日本語
 
 ### 📌 概要 (Overview)
-ウムラ巡礼（Umrah）旅行代理店向けの**高忠実度（High-Fidelity）ランディングページ**です。信頼性を高め、予約コンバージョンを促進するように設計されています。私の**グラフィックデザイン**のバックグラウンドを活かし、緑と金を基調とした配色で、精神的な安らぎとプロフェッショナルな印象を与える視覚的階層（Visual Hierarchy）を構築しました。
+政府公認のウムラ（Umrah）およびハッジ（Hajj）旅行代理店「Azzura Tour」のコーポレートサイトです。単なるランディングページではなく、複雑な旅行日程、法的認可（PPIUライセンス）、宿泊施設情報を体系的に整理し、ユーザーに**「信頼感」**を与える**情報アーキテクチャ（IA）**の設計に重点を置いています。
 
 ### 💡 主な機能 (Key Features)
-* **信頼性重視のUI:** ユーザーの信頼を得るため、お客様の声や「選ばれる理由」セクションを戦略的に配置。
-* **レスポンシブな料金表:** モバイル表示にも最適化された、ウムラパッケージ（レギュラー/VIP）の比較カード。
-* **モダンなCSS設計:** FlexboxとGridを使用し、Figmaのデザインをピクセルパーフェクトに再現。
-* **インタラクティブ要素:** ボタンやカードにスムーズなホバーエフェクトを実装し、ユーザー体験（UX）を向上。
+* **コーポレートブランディング:** 専門性と精神的な落ち着きを表現するためのプレミアムな配色を採用。
+* **詳細なパッケージカタログ:** フライト詳細やホテルの評価を一目で比較できるカード型レイアウト。
+* **信頼性の確立:** 政府認可ライセンス（Kemenag RI）を強調表示し、ユーザーの不安を解消。
+* **レスポンシブ・ナビゲーション:** モバイルユーザーでも「会社概要」や「パッケージ」にアクセスしやすいUI設計。
 
 ---
 
 ## 🇮🇩 Bahasa Indonesia
 
 ### 📌 Ringkasan
-Website landing page untuk Biro Perjalanan Umrah yang dirancang dengan fokus pada estetika dan konversi. Sebagai desainer sekaligus developer, saya memastikan transisi dari desain (Figma) ke kode (HTML/CSS) tetap presisi. Warna hijau dan emas dipilih untuk membangun citra "Amanah" dan "Eksklusif".
+Website profil perusahaan dan katalog produk untuk biro perjalanan Umrah resmi. Proyek ini menggabungkan estetika desain grafis dengan struktur kode yang rapi. Fokus utama pengembangan adalah menonjolkan **Kredibilitas** (melalui tampilan lisensi resmi) dan **Keterbacaan Informasi** (layout paket perjalanan yang detail).
 
 ### 🖼️ UI/UX Highlights
 
 <table align="center">
   <tr>
     <td align="center" width="50%">
-        <img src="assets/preview_packages.png" alt="Package Cards" width="100%">
-        <br><b>📦 Package Cards</b><br>
-        <sub>Desain kartu harga yang jelas & informatif.</sub>
+        <img src="assets/preview_packages.png" alt="Package Catalog" width="100%">
+        <br><b>📦 Package & Itinerary</b><br>
+        <sub>Tampilan detail paket (Flight, Hotel, Harga).</sub>
     </td>
     <td align="center" width="50%">
-        <img src="assets/preview_features.png" alt="Features Section" width="100%">
-        <br><b>✨ Why Choose Us</b><br>
-        <sub>Penggunaan ikonografi untuk keterbacaan cepat.</sub>
+        <img src="assets/preview_features.png" alt="Legality & Trust" width="100%">
+        <br><b>⚖️ Legality & Trust</b><br>
+        <sub>Highlight Izin Resmi Kemenag untuk kredibilitas.</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
         <img src="assets/preview_trust.png" alt="Testimonials" width="100%">
-        <br><b>🤝 Social Proof</b><br>
-        <sub>Layout testimoni untuk membangun kredibilitas.</sub>
+        <br><b>🤝 Jamaah Testimonials</b><br>
+        <sub>Social proof dari jamaah yang telah berangkat.</sub>
     </td>
     <td align="center" width="50%">
-        <img src="assets/main_mockup.png" alt="Responsive Design" width="100%">
-        <br><b>📱 Responsive Design</b><br>
-        <sub>Tampilan tetap rapi di berbagai ukuran layar.</sub>
+        <img src="assets/main_mockup.png" alt="Mobile Responsiveness" width="100%">
+        <br><b>📱 Mobile Experience</b><br>
+        <sub>Navigasi yang mudah di layar smartphone.</sub>
     </td>
   </tr>
 </table>
