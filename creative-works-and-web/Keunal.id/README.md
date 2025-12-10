@@ -1,31 +1,31 @@
 <div align="center">
 
-<img src="Assets/img/logo.png" width="120" alt="Keunal.id Logo">
+<img src="Assets/img/logo.png" width="150" alt="Keunal.id Logo">
 
 # Keunal.id
-### Digital Creative Lab & Data Visualization Service
-*"Transforming Complex Data into Beautiful Visual Narratives"*
+### 📰 Information & Educational Media Platform
 
 <p>
-  <img src="https://img.shields.io/badge/Creative-Graphic_Design-FF61F6?style=for-the-badge&logo=canva&logoColor=white">
-  <img src="https://img.shields.io/badge/Social-Content_Strategy-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
-  <img src="https://img.shields.io/badge/Insight-Data_Storytelling-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Canva-Social%20Media%20Design-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white">
+  <img src="https://img.shields.io/badge/Python-Data%20Analysis-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Google%20Workspace-Productivity%20Suite-4285F4?style=for-the-badge&logo=googleworkspace&logoColor=white">
+  <img src="https://img.shields.io/badge/Gemini%20AI-Illustration%20Generator-8E75FF?style=for-the-badge&logo=googlegemini&logoColor=white">
 </p>
 
 [🇬🇧 English](#-english) | [🇯🇵 日本語](#-japanese) | [🇮🇩 Bahasa Indonesia](#-bahasa-indonesia)
 
 <br>
 
-<a href="https://instagram.com/keunal.id">
-  <img src="https://img.shields.io/badge/📸_Instagram-Visit_Portfolio-E4405F?style=flat-square">
-</a>
-<a href="mailto:emailanda@example.com">
-  <img src="https://img.shields.io/badge/📧_Contact-Hire_Me-black?style=flat-square">
-</a>
-
-<br><br>
-
-<img src="Assets/img/banner1.jpg" alt="Keunal.id Services Banner" width="100%">
+<div align="center">
+  <img src="Assets/img/banner1.jpg" width="100%" alt="Keunal.id Banner">
+  <br><br>
+  <p>
+    <em>"Delivering insightful information through data-driven articles and visual storytelling."</em>
+  </p>
+  <a href="https://instagram.com/keunal.id">
+    <img src="https://img.shields.io/badge/Follow_Us-Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white">
+  </a>
+</div>
 
 </div>
 
@@ -33,89 +33,95 @@
 
 ## 🇬🇧 English
 
-### 🚀 About The Lab
-**Keunal.id** is a creative hub founded by **Muhamad Juwandi**, bridging the gap between **Aesthetics** and **Analytics**. Unlike traditional design agencies, I use data insights to craft visual content that not only looks good but also performs well on social media algorithms.
+### 📋 About The Platform
+**Keunal.id** is an informational media platform designed to share knowledge and insights.
+My role in this project is a **Content Creator**, responsible for:
+1.  **Writing Articles:** conducting research and writing educational blog posts.
+2.  **Visual Content:** Designing Instagram feeds using Canva and AI tools.
+3.  **Data Support:** Utilizing Python to find trends/data to support the information delivered.
 
-### 🛠️ What We Do (Services)
-* **Social Media Management:** Creating high-engagement carousel posts & reels.
-* **Data Visualization:** Turning boring spreadsheets into compelling infographics.
-* **Brand Identity:** Logo design and visual guidelines for MSMEs (UMKM).
+### 🖼️ Content Portfolio
 
-### 📂 Featured Projects
+#### 1. Articles (Writings)
+Detailed articles I have written for the platform:
 
-<table align="center">
-  <tr>
-    <td width="50%" align="center">
-      <img src="Assets/instagram-content/posts/feed-design-1.jpg" width="100%" alt="Project 1">
-      <br><b>🎨 Social Media Revamp</b><br>
-      <sub>Content Strategy & Feed Design for [Client Name]</sub>
-    </td>
-    <td width="50%" align="center">
-      <img src="Assets/instagram-content/posts/feed-design-2.jpg" width="100%" alt="Project 2">
-      <br><b>📊 Infographic Series</b><br>
-      <sub>Educational Carousel regarding Tech Trends</sub>
-    </td>
-  </tr>
-</table>
+| Article Title | Content Focus |
+| :--- | :--- |
+| **[📄 Data Trends 2024](./Article/Analisis-Saham.md)** | Analysis of digital trends using Python data. |
+| **[📄 Visual Storytelling](./Article/Tren-Design.md)** | Educational piece on design communication. |
 
----
-
-## 🇯🇵 日本語
-
-### 🚀 クリエイティブ・ラボについて (About)
-**Keunal.id** は、**美学（デザイン）**と**分析（データ）**のギャップを埋めるクリエイティブ・ハブです。従来のデザイン事務所とは異なり、データに基づいた洞察（インサイト）を活用して、見た目が美しいだけでなく、SNSアルゴリズムで高いパフォーマンスを発揮するコンテンツを作成します。
-
-### 🛠️ サービス内容 (Services)
-* **SNS運用・制作:** エンゲージメント率の高いカルーセル投稿やリール動画の制作。
-* **データ可視化:** 複雑なデータを、分かりやすく魅力的なインフォグラフィックに変換。
-* **ブランド・アイデンティティ:** 中小企業向けのロゴデザインおよびビジュアルガイドライン策定。
-
-### 📂 主な実績 (Works)
-
-<table align="center">
-  <tr>
-    <td width="50%" align="center">
-      <img src="Assets/instagram-content/posts/feed-design-1.jpg" width="100%" alt="Work 1">
-      <br><b>🎨 SNSリブランディング</b><br>
-      <sub>コンテンツ戦略とフィードデザイン</sub>
-    </td>
-    <td width="50%" align="center">
-      <img src="Assets/instagram-content/posts/feed-design-2.jpg" width="100%" alt="Work 2">
-      <br><b>📊 インフォグラフィック</b><br>
-      <sub>テックトレンドに関する教育系スライド</sub>
-    </td>
-  </tr>
-</table>
-
----
-
-## 🇮🇩 Bahasa Indonesia
-
-### 🚀 Tentang Kami
-**Keunal.id** bukan sekadar portofolio, melainkan **Laboratorium Kreatif** yang menggabungkan desain grafis dengan riset data. Saya membantu brand mengkomunikasikan pesan mereka melalui visual yang terukur dan estetik. Fokus utama kami adalah mengubah data yang rumit menjadi konten yang mudah dicerna oleh audiens awam.
-
-### 🛠️ Layanan
-1.  **Desain Media Sosial:** Pembuatan Feed Carousel, Story, dan Reels yang *scroll-stopping*.
-2.  **Visualisasi Data:** Membuat infografis laporan bisnis atau konten edukasi berbasis data.
-3.  **Branding:** Pembuatan Logo dan identitas visual untuk UMKM dan Startup.
-
-### 📸 Galeri Karya
+#### 2. Instagram Feeds (Visuals)
+Visual content I designed to summarize information for social media audiences.
 
 <div align="center">
   <img src="Assets/instagram-content/posts/feed-design-1.jpg" width="30%" alt="Feed 1">
   <img src="Assets/instagram-content/posts/feed-design-2.jpg" width="30%" alt="Feed 2">
   <img src="Assets/instagram-content/posts/feed-design-3.jpg" width="30%" alt="Feed 3">
 </div>
-<br>
+
+---
+
+## 🇯🇵 日本語
+
+### 📋 プラットフォームについて (About)
+**Keunal.id** は、知識と洞察を共有するための**情報メディアプラットフォーム**です。
+私の役割は**コンテンツクリエイター**として、以下の業務を担当しています：
+1.  **記事執筆:** リサーチを行い、教育的なブログ記事を執筆する。
+2.  **ビジュアル制作:** CanvaやAIツールを使用してInstagramのフィードをデザインする。
+3.  **データサポート:** Pythonを活用してトレンドやデータを分析し、情報の裏付けを行う。
+
+### 🖼️ コンテンツ・ポートフォリオ
+
+#### 1. 記事 (Articles)
+私が執筆した主な記事：
+
+| 記事タイトル | 内容 |
+| :--- | :--- |
+| **[📄 2024年のデータトレンド](./Article/Analisis-Saham.md)** | Pythonを使用したデジタルトレンドの分析記事。 |
+| **[📄 ビジュアル・ストーリーテリング](./Article/Tren-Design.md)** | デザインコミュニケーションに関する教育記事。 |
+
+#### 2. Instagramフィード (Visuals)
+SNS向けに情報を要約・デザインしたビジュアルコンテンツ。
+
 <div align="center">
-    <a href="https://instagram.com/keunal.id">
-        <img src="https://img.shields.io/badge/Lihat_Semua_Karya_di_Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
-    </a>
+  <img src="Assets/instagram-content/posts/feed-design-1.jpg" width="30%" alt="Feed 1">
+  <img src="Assets/instagram-content/posts/feed-design-2.jpg" width="30%" alt="Feed 2">
+  <img src="Assets/instagram-content/posts/feed-design-3.jpg" width="30%" alt="Feed 3">
 </div>
 
 ---
 
+## 🇮🇩 Bahasa Indonesia
+
+### 📋 Tentang Media Ini
+**Keunal.id** adalah platform media informasi yang menyajikan wawasan edukatif.
+Di sini, saya berkontribusi sebagai **Content Creator** dengan tanggung jawab utama:
+1.  **Penulisan Artikel:** Melakukan riset topik dan menulis artikel yang informatif.
+2.  **Desain Visual:** Membuat konten visual Instagram yang menarik menggunakan Canva & AI.
+3.  **Riset Data:** Menggunakan Python untuk mencari data pendukung agar informasi lebih akurat.
+
+### 🖼️ Galeri Karya
+
+#### 1. Artikel
+Tulisan yang telah saya publikasikan di platform ini:
+
+| Judul Artikel & Link | Topik Bahasan |
+| :--- | :--- |
+| **[📄 Analisis Tren Data 2024](./Article/Analisis-Saham.md)** | Mengupas tren digital berbasis data Python. |
+| **[📄 Visual Storytelling](./Article/Tren-Design.md)** | Edukasi cara menyampaikan pesan lewat desain. |
+
+#### 2. Tampilan Instagram
+Konten visual yang saya desain untuk audiens media sosial:
+
 <div align="center">
-  <br>
-  <small>Built with 🎨 and ☕ by <b>Muhamad Juwandi</b></small>
+  <img src="Assets/instagram-content/posts/feed-design-1.jpg" width="30%" alt="Feed 1">
+  <img src="Assets/instagram-content/posts/feed-design-2.jpg" width="30%" alt="Feed 2">
+  <img src="Assets/instagram-content/posts/feed-design-3.jpg" width="30%" alt="Feed 3">
+</div>
+
+---
+
+<br>
+<div align="center">
+  <small>Content Created by <b>Muhamad Juwandi</b> for Keunal.id</small>
 </div>
