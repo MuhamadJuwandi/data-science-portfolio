@@ -7,9 +7,9 @@
 
 <p>
   <img src="https://img.shields.io/badge/Canva-Social%20Media%20Design-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white">
+  <img src="https://img.shields.io/badge/CapCut-Video%20Editing-000000?style=for-the-badge&logo=capcut&logoColor=white">
   <img src="https://img.shields.io/badge/Python-Data%20Analysis-3776AB?style=for-the-badge&logo=python&logoColor=white">
   <img src="https://img.shields.io/badge/Google%20Workspace-Productivity%20Suite-4285F4?style=for-the-badge&logo=googleworkspace&logoColor=white">
-  <img src="https://img.shields.io/badge/Gemini%20AI-Illustration%20Generator-8E75FF?style=for-the-badge&logo=googlegemini&logoColor=white">
 </p>
 
 [🇬🇧 English](#-english) | [🇯🇵 日本語](#-japanese) | [🇮🇩 Bahasa Indonesia](#-bahasa-indonesia)
@@ -35,11 +35,12 @@
 ## 🇬🇧 English
 
 ### 📋 About The Platform
-**Keunal.id** is an informational media platform designed to share knowledge and insights.
-My role in this project is a **Content Creator**, responsible for:
-1.  **Writing Articles:** Conducting research and writing educational blog posts about Finance & Tech.
-2.  **Visual Content:** Designing Instagram feeds using Canva and AI tools.
-3.  **Data Support:** Utilizing Python/Excel to analyze market trends (e.g., Stock Market & Hardware Prices).
+**Keunal.id** is an informational media platform providing diverse educational and current content ranging from technology, finance, and sports to general news.
+
+As a **Content Creator**, my primary responsibilities include:
+1.  **Article Writing:** Conducting in-depth research on current issues and topics to structure informative articles relevant to reader needs.
+2.  **Visual Design:** Creating data visualizations and Instagram feed/carousel designs using **Canva** to enhance content engagement.
+3.  **Video Editing:** Creating and editing video clippings from YouTube for Instagram Reels content using **CapCut**.
 
 ### 🖼️ Article Visuals
 Visual assets and charts created for my articles found in the `/Article` directory.
@@ -70,8 +71,12 @@ A collection of high-performing feeds and reels created for the **@keunal.id** b
 ## 🇯🇵 日本語 (Japanese)
 
 ### 概要 (Overview)
-**Keunal.id** は、知識と洞察を共有するための**情報メディアプラットフォーム**です。
-私の役割は**コンテンツクリエイター**として、金融やテクノロジーに関する記事執筆とInstagramのデザインを担当しています。
+**Keunal.id** は、テクノロジー、金融、スポーツから一般ニュースに至るまで、多様な教育的かつ最新のコンテンツを提供する情報メディアプラットフォームです。
+
+**コンテンツクリエイター**としての私の主な責任は以下の通りです：
+1.  **記事執筆 (Article Writing):** 最新の課題やトピックについて深く調査し、読者のニーズに関連する有益な記事を作成します。
+2.  **ビジュアルデザイン (Visual Design):** **Canva**を使用してデータ視覚化やInstagramのフィード/カルーセルデザインを作成し、コンテンツの魅力を高めます。
+3.  **動画編集 (Video Editing):** **CapCut**を使用してYouTubeからの切り抜き動画を作成・編集し、Instagramリール用のコンテンツを制作します。
 
 ### 🖼️ 記事のビジュアル (Article Visuals)
 記事のために作成されたビジュアル素材とリンクです。
@@ -97,10 +102,12 @@ A collection of high-performing feeds and reels created for the **@keunal.id** b
 ## 🇮🇩 Bahasa Indonesia
 
 ### Gambaran Umum
-**Keunal.id** adalah platform media informasi yang menyajikan wawasan edukatif seputar teknologi dan keuangan.
-Peran saya di sini adalah **Content Creator**, yang bertugas:
-1.  **Menulis Artikel:** Riset mendalam tentang topik terkini (Saham & Gadget).
-2.  **Desain Visual:** Membuat visualisasi data dan desain feed Instagram menggunakan Canva & Python.
+**Keunal.id** adalah platform media informasi yang menyajikan beragam konten edukatif dan aktual seputar teknologi, keuangan, olahraga, hingga berita umum.
+
+Sebagai **Content Creator**, saya memiliki tanggung jawab utama dalam:
+1.  **Menulis Artikel:** Melakukan riset mendalam mengenai isu dan topik terkini, lalu menyusun artikel yang informatif serta relevan dengan kebutuhan pembaca.
+2.  **Desain Visual:** Membuat visualisasi data, serta desain feed dan carousel Instagram menggunakan **Canva** untuk memperkuat daya tarik konten.
+3.  **Video Editing:** Membuat dan mengedit video clipping dari YouTube untuk konten Reels Instagram menggunakan **CapCut**.
 
 ### 🖼️ Visual Artikel
 Aset visual yang saya buat untuk artikel yang telah dipublikasikan di website.
