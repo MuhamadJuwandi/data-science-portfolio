@@ -19,11 +19,11 @@
 <div align="center">
   <img src="Assets/img/banner1.jpg" width="100%" alt="Keunal.id Banner">
   <br><br>
-  <p>
-    <em>"Delivering insightful information through data-driven articles and visual storytelling."</em>
-  </p>
+  <a href="https://keunal.id/">
+    <img src="https://img.shields.io/badge/🌐_Website-Visit_Keunal.id-blue?style=flat-square">
+  </a>
   <a href="https://instagram.com/keunal.id">
-    <img src="https://img.shields.io/badge/Follow_Us-Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white">
+    <img src="https://img.shields.io/badge/📸_Instagram-Follow_Us-E4405F?style=flat-square&logo=instagram&logoColor=white">
   </a>
 </div>
 
@@ -31,97 +31,103 @@
 
 ---
 
+<a name="english"></a>
 ## 🇬🇧 English
 
 ### 📋 About The Platform
 **Keunal.id** is an informational media platform designed to share knowledge and insights.
 My role in this project is a **Content Creator**, responsible for:
-1.  **Writing Articles:** conducting research and writing educational blog posts.
+1.  **Writing Articles:** Conducting research and writing educational blog posts about Finance & Tech.
 2.  **Visual Content:** Designing Instagram feeds using Canva and AI tools.
-3.  **Data Support:** Utilizing Python to find trends/data to support the information delivered.
+3.  **Data Support:** Utilizing Python/Excel to analyze market trends (e.g., Stock Market & Hardware Prices).
 
-### 🖼️ Content Portfolio
+### 🖼️ Article Visuals
+Visual assets and charts created for my articles found in the `/Article` directory.
 
-#### 1. Articles (Writings)
-Detailed articles I have written for the platform:
-
-| Article Title | Content Focus |
+| Article Title & Link | Visual Preview |
 | :--- | :--- |
-| **[📄 Data Trends 2024](./Article/Analisis-Saham.md)** | Analysis of digital trends using Python data. |
-| **[📄 Visual Storytelling](./Article/Tren-Design.md)** | Educational piece on design communication. |
+| **[📄 Article: IHSG Strengthens (Dec 2025)](https://keunal.id/berita/ihsg-menguat-9-desember-2025/)**<br>Analysis of the Indonesian Joint Stock Price Index (IHSG) market movements and economic impact. | <img src="Assets/img/foto-artikel-1.jpg" width="250" alt="IHSG Chart"> |
+| **[📄 Article: RAM Prices Surge in 2026](https://keunal.id/teknologi/harga-ram-laptop-pc-makin-mahal-2026/)**<br>Tech insight regarding the rising costs of Laptop/PC components and market predictions. | <img src="Assets/img/foto-artikel-2.jpg" width="250" alt="RAM Hardware"> |
 
-#### 2. Instagram Feeds (Visuals)
-Visual content I designed to summarize information for social media audiences.
+### 📸 Instagram Portfolio
+A collection of high-performing feeds and reels created for the **@keunal.id** brand.
 
+#### 1. Carousel & Feed Designs
 <div align="center">
-  <img src="Assets/instagram-content/posts/feed-design-1.jpg" width="30%" alt="Feed 1">
-  <img src="Assets/instagram-content/posts/feed-design-2.jpg" width="30%" alt="Feed 2">
-  <img src="Assets/instagram-content/posts/feed-design-3.jpg" width="30%" alt="Feed 3">
+  <img src="Assets/instagram-content/posts/feed-design-1.jpg" width="30%" alt="Feed 1"/>
+  <img src="Assets/instagram-content/posts/feed-design-2.jpg" width="30%" alt="Feed 2"/>
+  <img src="Assets/instagram-content/posts/feed-design-3.jpg" width="30%" alt="Feed 3"/>
 </div>
+
+#### 2. Video & Reels
+*Click the links below to view the video content:*
+* 🎥 **[Video: Introduction to Data Science](Assets/instagram-content/videos/video-intro.mp4)**
+* 🎥 **[Video: Design Tips for Developers](Assets/instagram-content/videos/video-tips.mp4)**
 
 ---
 
-## 🇯🇵 日本語
+<a name="japanese"></a>
+## 🇯🇵 日本語 (Japanese)
 
-### 📋 プラットフォームについて (About)
+### 概要 (Overview)
 **Keunal.id** は、知識と洞察を共有するための**情報メディアプラットフォーム**です。
-私の役割は**コンテンツクリエイター**として、以下の業務を担当しています：
-1.  **記事執筆:** リサーチを行い、教育的なブログ記事を執筆する。
-2.  **ビジュアル制作:** CanvaやAIツールを使用してInstagramのフィードをデザインする。
-3.  **データサポート:** Pythonを活用してトレンドやデータを分析し、情報の裏付けを行う。
+私の役割は**コンテンツクリエイター**として、金融やテクノロジーに関する記事執筆とInstagramのデザインを担当しています。
 
-### 🖼️ コンテンツ・ポートフォリオ
+### 🖼️ 記事のビジュアル (Article Visuals)
+記事のために作成されたビジュアル素材とリンクです。
 
-#### 1. 記事 (Articles)
-私が執筆した主な記事：
-
-| 記事タイトル | 内容 |
+| 記事タイトル (Title) | プレビュー (Preview) |
 | :--- | :--- |
-| **[📄 2024年のデータトレンド](./Article/Analisis-Saham.md)** | Pythonを使用したデジタルトレンドの分析記事。 |
-| **[📄 ビジュアル・ストーリーテリング](./Article/Tren-Design.md)** | デザインコミュニケーションに関する教育記事。 |
+| **[📄 記事：IHSG（インドネシア株価指数）の強化](https://keunal.id/berita/ihsg-menguat-9-desember-2025/)**<br>2025年12月の株式市場の動きと経済への影響に関する分析。 | <img src="Assets/img/foto-artikel-1.jpg" width="250" alt="IHSG Article"> |
+| **[📄 記事：2026年 PC用メモリ(RAM)価格の高騰](https://keunal.id/teknologi/harga-ram-laptop-pc-makin-mahal-2026/)**<br>ノートPCおよびデスクトップPCのパーツ価格上昇に関する技術的洞察。 | <img src="Assets/img/foto-artikel-2.jpg" width="250" alt="Tech Hardware"> |
 
-#### 2. Instagramフィード (Visuals)
-SNS向けに情報を要約・デザインしたビジュアルコンテンツ。
+### 📸 インスタグラム・ポートフォリオ (Instagram)
+**@keunal.id** ブランドのために作成された、フィードとリール集です。
 
+#### 1. フィードデザイン (Feed Designs)
 <div align="center">
-  <img src="Assets/instagram-content/posts/feed-design-1.jpg" width="30%" alt="Feed 1">
-  <img src="Assets/instagram-content/posts/feed-design-2.jpg" width="30%" alt="Feed 2">
-  <img src="Assets/instagram-content/posts/feed-design-3.jpg" width="30%" alt="Feed 3">
+  <img src="Assets/instagram-content/posts/feed-design-1.jpg" width="30%" alt="Feed 1"/>
+  <img src="Assets/instagram-content/posts/feed-design-2.jpg" width="30%" alt="Feed 2"/>
+  <img src="Assets/instagram-content/posts/feed-design-3.jpg" width="30%" alt="Feed 3"/>
 </div>
 
 ---
 
+<a name="indonesian"></a>
 ## 🇮🇩 Bahasa Indonesia
 
-### 📋 Tentang Media Ini
-**Keunal.id** adalah platform media informasi yang menyajikan wawasan edukatif.
-Di sini, saya berkontribusi sebagai **Content Creator** dengan tanggung jawab utama:
-1.  **Penulisan Artikel:** Melakukan riset topik dan menulis artikel yang informatif.
-2.  **Desain Visual:** Membuat konten visual Instagram yang menarik menggunakan Canva & AI.
-3.  **Riset Data:** Menggunakan Python untuk mencari data pendukung agar informasi lebih akurat.
+### Gambaran Umum
+**Keunal.id** adalah platform media informasi yang menyajikan wawasan edukatif seputar teknologi dan keuangan.
+Peran saya di sini adalah **Content Creator**, yang bertugas:
+1.  **Menulis Artikel:** Riset mendalam tentang topik terkini (Saham & Gadget).
+2.  **Desain Visual:** Membuat visualisasi data dan desain feed Instagram menggunakan Canva & Python.
 
-### 🖼️ Galeri Karya
+### 🖼️ Visual Artikel
+Aset visual yang saya buat untuk artikel yang telah dipublikasikan di website.
 
-#### 1. Artikel
-Tulisan yang telah saya publikasikan di platform ini:
-
-| Judul Artikel & Link | Topik Bahasan |
+| Judul Artikel & Tautan | Pratinjau Visual |
 | :--- | :--- |
-| **[📄 Analisis Tren Data 2024](./Article/Analisis-Saham.md)** | Mengupas tren digital berbasis data Python. |
-| **[📄 Visual Storytelling](./Article/Tren-Design.md)** | Edukasi cara menyampaikan pesan lewat desain. |
+| **[📄 Artikel: IHSG Menguat (Desember 2025)](https://keunal.id/berita/ihsg-menguat-9-desember-2025/)**<br>Analisis pergerakan pasar saham gabungan dan dampaknya terhadap ekonomi. | <img src="Assets/img/foto-artikel-1.jpg" width="250" alt="Cover Artikel IHSG"> |
+| **[📄 Artikel: Harga RAM Laptop/PC Makin Mahal 2026](https://keunal.id/teknologi/harga-ram-laptop-pc-makin-mahal-2026/)**<br>Ulasan teknologi mengenai tren kenaikan harga komponen komputer. | <img src="Assets/img/foto-artikel-2.jpg" width="250" alt="Cover Artikel RAM"> |
 
-#### 2. Tampilan Instagram
-Konten visual yang saya desain untuk audiens media sosial:
+### 📸 Portofolio Instagram
+Koleksi desain feed dan reels yang saya buat untuk brand **@keunal.id**.
 
+#### 1. Desain Feed & Carousel
 <div align="center">
-  <img src="Assets/instagram-content/posts/feed-design-1.jpg" width="30%" alt="Feed 1">
-  <img src="Assets/instagram-content/posts/feed-design-2.jpg" width="30%" alt="Feed 2">
-  <img src="Assets/instagram-content/posts/feed-design-3.jpg" width="30%" alt="Feed 3">
+  <img src="Assets/instagram-content/posts/feed-design-1.jpg" width="30%" alt="Feed 1"/>
+  <img src="Assets/instagram-content/posts/feed-design-2.jpg" width="30%" alt="Feed 2"/>
+  <img src="Assets/instagram-content/posts/feed-design-3.jpg" width="30%" alt="Feed 3"/>
 </div>
 
----
+#### 2. Konten Video & Reels
+*Klik tautan di bawah untuk melihat file video:*
+* 🎥 **[Video: Pengenalan Data Science](Assets/instagram-content/videos/video-intro.mp4)**
+* 🎥 **[Video: Tips Desain untuk Developer](Assets/instagram-content/videos/video-tips.mp4)**
 
+---
 <br>
+
 <div align="center">
   <small>Content Created by <b>Muhamad Juwandi</b> for Keunal.id</small>
 </div>
