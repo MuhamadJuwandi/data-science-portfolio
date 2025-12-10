@@ -37,9 +37,9 @@ A collection of high-performing feeds and reels created for the **@keunal.id** b
 
 #### 1. Carousel & Feed Designs
 <div align="center">
-  <img src="assets/instagram-content/posts/feed-design-1.jpg" width="30%" alt="Feed 1"/>
-  <img src="assets/instagram-content/posts/feed-design-2.jpg" width="30%" alt="Feed 2"/>
-  <img src="assets/instagram-content/posts/feed-design-3.jpg" width="30%" alt="Feed 3"/>
+  <img src="Assets/instagram-content/posts/feed-design-1.jpg" width="30%" alt="Feed 1"/>
+  <img src="Assets/instagram-content/posts/feed-design-2.jpg" width="30%" alt="Feed 2"/>
+  <img src="Assets/instagram-content/posts/feed-design-3.jpg" width="30%" alt="Feed 3"/>
 </div>
 
 #### 2. Video & Reels
@@ -68,9 +68,9 @@ A collection of high-performing feeds and reels created for the **@keunal.id** b
 
 #### 1. フィードデザイン (Feed Designs)
 <div align="center">
-  <img src="assets/instagram-content/posts/feed-design-1.jpg" width="30%" alt="Feed 1"/>
-  <img src="assets/instagram-content/posts/feed-design-2.jpg" width="30%" alt="Feed 2"/>
-  <img src="assets/instagram-content/posts/feed-design-3.jpg" width="30%" alt="Feed 3"/>
+  <img src="Assets/instagram-content/posts/feed-design-1.jpg" width="30%" alt="Feed 1"/>
+  <img src="Assets/instagram-content/posts/feed-design-2.jpg" width="30%" alt="Feed 2"/>
+  <img src="Assets/instagram-content/posts/feed-design-3.jpg" width="30%" alt="Feed 3"/>
 </div>
 
 #### 2. 動画コンテンツ (Videos)
@@ -99,9 +99,9 @@ Koleksi desain feed dan reels berkinerja tinggi yang dibuat untuk brand **@keuna
 
 #### 1. Desain Feed & Carousel
 <div align="center">
-  <img src="assets/instagram-content/posts/feed-design-1.jpg" width="30%" alt="Feed 1"/>
-  <img src="assets/instagram-content/posts/feed-design-2.jpg" width="30%" alt="Feed 2"/>
-  <img src="assets/instagram-content/posts/feed-design-3.jpg" width="30%" alt="Feed 3"/>
+  <img src="Assets/instagram-content/posts/feed-design-1.jpg" width="30%" alt="Feed 1"/>
+  <img src="Assets/instagram-content/posts/feed-design-2.jpg" width="30%" alt="Feed 2"/>
+  <img src="Assets/instagram-content/posts/feed-design-3.jpg" width="30%" alt="Feed 3"/>
 </div>
 
 #### 2. Konten Video & Reels
