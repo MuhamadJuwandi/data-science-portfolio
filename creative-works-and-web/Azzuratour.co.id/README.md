@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-kaaba-ramadan-flaticons-lineal-color-flat-icons.png" alt="Logo" width="80">
+<img src="assets/logo.png" alt="Logo" width="80">
 
 # 🕋 Umrah Travel Landing Page
 ### Professional UI/UX Design & Front-End Implementation
