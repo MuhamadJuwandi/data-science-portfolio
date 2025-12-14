@@ -63,5 +63,5 @@ I am a Data Science student at **Universitas Terbuka** with a background in grap
 ### 📫 Contact
 Feel free to reach out if you are interested in my work! / ご興味を持っていただけましたら、お気軽にご連絡ください！
 
-* **LinkedIn:** [Link LinkedIn Anda]
-* **Email:** [Alamat Email Anda]
+* **LinkedIn:** [https://www.linkedin.com/in/muhamadjuwandi/]
+* **Email:** [muhamadjuwandi28@gmail.com]
