@@ -18,12 +18,7 @@
     <a href="#gb-english-profile">GB English</a> | <a href="#jp-日本語プロフィール">JP 日本語</a> | <a href="#id-indonesia-profile">ID Indonesia</a>
   </p>
 </div>
-  <h3>
-    <a href="#-english-profile">🇬🇧 English</a> | 
-    <a href="#-日本語のプロフィール">🇯🇵 日本語</a> | 
-    <a href="#-profil-bahasa-indonesia">🇮🇩 Indonesia</a>
-  </h3>
-</div>
+
 
 <br />
 
