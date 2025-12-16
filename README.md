@@ -1,5 +1,6 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00f2ff&height=250&section=header&text=Data%20Science%20Portfolio&fontSize=50&fontAlignY=40&desc=Data%20Science%20x%20Machine%20Learning%20x%20Japan&descAlignY=60&fontColor=ffffff" alt="Header" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=111827&height=250&section=header&text=Data%20Science%20Portfolio&fontSize=50&fontAlignY=40&desc=Data%20Science%20x%20Machine%20Learning%20x%20Japan&descAlignY=60&fontColor=E5E7EB" alt="Header" width="100%"/>
+</div>
 
   <p>
     <a href="https://www.linkedin.com/in/muhamadjuwandi/">
