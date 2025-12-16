@@ -14,11 +14,12 @@
 </div>
 
 <div align="center">
-  <p>
-    <a href="#gb-english-profile">GB English</a> | <a href="#jp-日本語プロフィール">JP 日本語</a> | <a href="#id-indonesia-profile">ID Indonesia</a>
-  </p>
+  <h3>
+    <a href="#-english">🇬🇧 English</a> &nbsp;|&nbsp;
+    <a href="#-日本語">🇯🇵 日本語</a> &nbsp;|&nbsp;
+    <a href="#-bahasa-indonesia">🇮🇩 Indonesia</a>
+  </h3>
 </div>
-
 
 <br />
 
