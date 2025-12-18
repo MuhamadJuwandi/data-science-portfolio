@@ -95,40 +95,54 @@ TEPCO-Forecasting/
 ├── dashboard.py             # Streamlit Application entry point
 ├── requirements.txt         # Project Dependencies
 └── README.md                # Project Documentation
+```
 
 ---
 
-## 🛠️Installation & Usage
+## 🛠️ Installation & Usage
 
+### 1. Clone & Install
 ```bash
-Clone & install  
-git clone https://github.com/yourusername/TEPCO-Forecasting.git  
-cd TEPCO-Forecasting  
-pip install -r requirements.txt  
+git clone [https://github.com/yourusername/TEPCO-Forecasting.git](https://github.com/yourusername/TEPCO-Forecasting.git)
+cd TEPCO-Forecasting
+pip install -r requirements.txt
+```
 
-Data preparation  
-python scripts/etl_v2.py  
-python scripts/weather_fetcher.py  
-python scripts/merge_weather.py  
+### 2. Data Preparation (ETL)
+Run the pipeline to process raw TEPCO data and fetch weather info:
+```bash
+python scripts/etl_v2.py        # Parse TEPCO data
+python scripts/weather_fetcher.py # Download Weather Data
+python scripts/merge_weather.py   # Merge Datasets
+```
 
-Training  
-python scripts/train_lstm.py  
+### 3. Training
+Train the LSTM Neural Network (ensure PyTorch is installed):
+```bash
+python scripts/train_lstm.py
+```
 
-Run dashboard  
-streamlit run dashboard.py  
+### 4. Launch Dashboard
+Visualize the results locally:
+```bash
+streamlit run dashboard.py
+```
 
 ---
 
-## 🔮Future Improvements
-- Temporal Fusion Transformer (TFT)  
-- CI/CD with GitHub Actions  
-- Docker deployment (AWS/GCP)
+## 🔮 Future Improvements
+* **Transformer Architecture:** Implement **Temporal Fusion Transformer (TFT)** for better interpretability of variable importance.
+* **CI/CD Integration:** Automate model retraining pipelines using GitHub Actions.
+* **Containerization:** Dockerize the application for scalable cloud deployment (AWS/GCP).
 
 ---
-
 <div align="center">
 
-**Developed by Muhamad Juwandi**  
-Data Science Student & Graphic Designer
+**Developed by Muhamad Juwandi**
+<br>
+*Data Science Student & Graphic Designer*
+<br>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/muhamadjuwandi)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Keunal.id-ff69b4?style=flat&logo=dribbble)](https://keunal.id)
 
 </div>
