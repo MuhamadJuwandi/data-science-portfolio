@@ -96,39 +96,38 @@ TEPCO-Forecasting/
 ├── requirements.txt         # Project Dependencies
 └── README.md                # Project Documentation
 
-## 🛠️ Installation & Usage
-1. Clone & Install
-git clone [https://github.com/yourusername/TEPCO-Forecasting.git](https://github.com/yourusername/TEPCO-Forecasting.git)
-cd TEPCO-Forecasting
-pip install -r requirements.txt
+---
 
-2. Data Preparation (ETL)
-Run the pipeline to process raw TEPCO data and fetch weather info:
+## 🛠️Installation & Usage
 
-python scripts/etl_v2.py        # Parse TEPCO data
-python scripts/weather_fetcher.py # Download Weather Data
-python scripts/merge_weather.py   # Merge Datasets
-3. Training
-Train the LSTM Neural Network (ensure PyTorch is installed):
+Clone & install  
+git clone https://github.com/yourusername/TEPCO-Forecasting.git  
+cd TEPCO-Forecasting  
+pip install -r requirements.txt  
 
-python scripts/train_lstm.py
-4. Launch Dashboard
-Visualize the results locally:
+Data preparation  
+python scripts/etl_v2.py  
+python scripts/weather_fetcher.py  
+python scripts/merge_weather.py  
 
-streamlit run dashboard.py
-🔮 Future Improvements
-Transformer Architecture: Implement Temporal Fusion Transformer (TFT) for better interpretability of variable importance.
+Training  
+python scripts/train_lstm.py  
 
-CI/CD Integration: Automate model retraining pipelines using GitHub Actions.
+Run dashboard  
+streamlit run dashboard.py  
 
-Containerization: Dockerize the application for scalable cloud deployment (AWS/GCP).
+---
+
+## 🔮Future Improvements
+- Temporal Fusion Transformer (TFT)  
+- CI/CD with GitHub Actions  
+- Docker deployment (AWS/GCP)
+
+---
 
 <div align="center">
 
-Developed by Muhamad Juwandi
-
-
+**Developed by Muhamad Juwandi**  
 Data Science Student & Graphic Designer
-
 
 </div>
