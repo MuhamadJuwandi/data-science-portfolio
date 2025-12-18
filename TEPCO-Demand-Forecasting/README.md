@@ -81,20 +81,26 @@ Pipeline *forecasting* deret waktu (time-series) untuk memprediksi konsumsi list
 ## 📂 Project Structure
 
 ```bash
-TEPCO-Forecasting/
-├── 📁 data/
-│   ├── raw/                 # Original CSVs (Shift-JIS encoded)
-│   └── processed/           # Cleaned parquets/CSVs for training
-├── 📁 models/               # Saved .pth (LSTM) and .pkl (Prophet) models
-├── 📁 notebooks/            # Jupyter Notebooks for EDA & Experiments
-├── 📁 scripts/
-│   ├── etl_v2.py            # Data cleaning pipeline
-│   ├── weather_fetcher.py   # External Weather API Handler
-│   ├── train_lstm.py        # Model training script
-│   └── create_features.py   # Feature Engineering (lags, rolling means)
-├── dashboard.py             # Streamlit Application entry point
-├── requirements.txt         # Project Dependencies
-└── README.md                # Project Documentation
+TEPCO-Demand-Forecasting/
+├── 📂data/
+│   ├── raw/                 # Original TEPCO files (2020-2025)
+│   ├── processed/           # Merged & Cleaned datasets
+│   ├── external/            # Weather data (Tokyo)
+├── 📂notebooks/
+│   ├── 01_EDA.ipynb               # Exploratory Data Analysis
+│   ├── 02_FeatureEngineering.ipynb # Lag, Rolling, interaction features
+│   ├── 03_Modeling_Prophet.ipynb  # Baseline Model
+│   ├── 04_Modeling_LSTM.ipynb     # Deep Learning Model
+│   └── 05_Evaluation_Insights.ipynb # Metrics & Business Analysis
+├── 📂scripts/
+│   ├── etl_v2.py            # Main ETL pipeline
+│   ├── train_lstm.py        # PyTorch LSTM training script
+│   ├── weather_fetcher.py   # API Data Fetcher
+│   └── ...
+├── 📂visualizations/          # Generated plots for PPT/Reports
+├── dashboard.py             # Streamlit Application
+└── requirements.txt         # Project Dependencies
+
 ```
 
 ---
