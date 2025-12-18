@@ -95,13 +95,13 @@ TEPCO-Forecasting/
 ├── dashboard.py             # Streamlit Application entry point
 ├── requirements.txt         # Project Dependencies
 └── README.md                # Project Documentation
-🛠️ Installation & Usage
-1. Clone & Install
-Bash
 
+## 🛠️ Installation & Usage
+1. Clone & Install
 git clone [https://github.com/yourusername/TEPCO-Forecasting.git](https://github.com/yourusername/TEPCO-Forecasting.git)
 cd TEPCO-Forecasting
 pip install -r requirements.txt
+
 2. Data Preparation (ETL)
 Run the pipeline to process raw TEPCO data and fetch weather info:
 
