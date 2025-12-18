@@ -100,6 +100,7 @@ TEPCO-Forecasting/
 
 ## 🛠️Installation & Usage
 
+```bash
 Clone & install  
 git clone https://github.com/yourusername/TEPCO-Forecasting.git  
 cd TEPCO-Forecasting  
