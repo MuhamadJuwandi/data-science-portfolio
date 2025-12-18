@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://via.placeholder.com/1280x640.png?text=TEPCO+Electricity+Demand+Forecasting+Project" alt="TEPCO Forecasting Banner" width="100%">
+<img src="assets/banner-tepco.png" alt="TEPCO Forecasting Banner" width="100%">
 
 # ⚡ TEPCO Electricity Demand Forecasting
 ### 東京電力電力需要予測 (Tokyo Electric Power Company)
