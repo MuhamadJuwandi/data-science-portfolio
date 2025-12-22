@@ -3,7 +3,7 @@
 ![Project Banner](visuals/banner_placeholder.png)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-Multi_Page-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://streamlit.io/)
-[![Machine Learning](https://img.shields.io/badge/Sklearn-Clustering-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 [![Forecasting](https://img.shields.io/badge/Prophet-Time_Series-red?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.github.io/prophet/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
@@ -20,7 +20,7 @@
 ## 🇬🇧 English Overview
 
 ### 🧐 Business Context
-Using real-world dataset from **Olist (Brazil)**, this project bridges the gap between raw data and strategic decision-making. It addresses key e-commerce challenges: **Customer Churn**, **Inventory Mismanagement**, and **Service Quality**.
+Using the real-world **[Olist E-Commerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)** from Brazil, this project bridges the gap between raw data and strategic decision-making. It addresses key e-commerce challenges: **Customer Churn**, **Inventory Mismanagement**, and **Service Quality**.
 
 ### 🚀 Key Features (End-to-End)
 1.  **Modular Pipeline**: Transformed raw notebooks into production-ready scripts (`scripts/`).
@@ -38,7 +38,7 @@ Using real-world dataset from **Olist (Brazil)**, this project bridges the gap b
 ## 🇯🇵 プロジェクト概要
 
 ### 🧐 背景
-**Olist（ブラジル）**の実データを使用し、生のデータを戦略的な意思決定へと昇華させました。本プロジェクトは、Eコマースにおける主要な課題（**顧客離れ**、**在庫管理の不備**、**サービス品質**）に対するデータサイエンス・ソリューションです。
+**[Olist（ブラジル）の公開データセット](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)**を使用し、生のデータを戦略的な意思決定へと昇華させました。本プロジェクトは、Eコマースにおける主要な課題（**顧客離れ**、**在庫管理の不備**、**サービス品質**）に対するデータサイエンス・ソリューションです。
 
 ### 🚀 主な特徴
 1.  **モジュール化されたパイプライン**: 実験的なNotebookを、本番環境で使えるPythonスクリプト（`scripts/`）に変換。
@@ -52,7 +52,7 @@ Using real-world dataset from **Olist (Brazil)**, this project bridges the gap b
 ## 🇮🇩 Ringkasan Proyek
 
 ### 🧐 Konteks Bisnis
-Proyek ini mengubah data transaksi mentah **Olist (Brazil)** menjadi strategi bisnis yang dapat dieksekusi. Fokus utama adalah menyelesaikan masalah **Churn Pelanggan**, **Manajemen Stok**, dan **Kualitas Layanan** logistik.
+Proyek ini mengubah data transaksi mentah dari **[Olist (Brazil)](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)** menjadi strategi bisnis yang dapat dieksekusi. Fokus utama adalah menyelesaikan masalah **Churn Pelanggan**, **Manajemen Stok**, dan **Kualitas Layanan** logistik.
 
 ### 🚀 Fitur Unggulan
 1.  **Pipeline Modular**: Mengonversi Jupyter Notebook menjadi script Python modular (`scripts/`) yang lebih rapi dan *reusable*.
@@ -74,10 +74,10 @@ olist-dashboard-project/
 │   ├── logo.jpg                   
 │   └── streamlit_app.py           # [MAIN ENTRY POINT]
 │
-├── 📂 dataset/                    # Data Storage
+├── 📂 dataset/                    # Data Storage (Add Kaggle files here)
 │   ├── cleaned_data.pkl           # Processed Data (Pickle)
 │   ├── customer_segmentation.pkl  # Trained Model
-│   └── ... (Raw CSVs)
+│   └── ... (Raw CSVs from Kaggle)
 │
 ├── 📂 notebooks/                  # Experiments & Analysis
 │   ├── 1_data_cleaning.ipynb      
@@ -105,26 +105,35 @@ cd olist-dashboard-project
 
 ```
 
-### 2. Install Dependencies
+### 2. Set Up Data (Crucial Step!)
+
+Since the dataset is large, it is not included in this repository.
+
+1. Download the dataset from **[Kaggle: Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)**.
+2. Extract the `.zip` file.
+3. Place all `.csv` files into the `dataset/` folder.
+
+### 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 
 ```
 
-### 3. Data Preparation (Optional)
+### 4. Data Preparation (Optional)
 
-If `.pkl` files are missing in `dataset/`, run the cleaning script:
+If `.pkl` files are missing in `dataset/` (or you want to re-process raw data):
 
 ```bash
 python scripts/data_cleaning.py
 
 ```
 
-### 4. Run Dashboard
+### 5. Run Dashboard
 
 ```bash
-python -m streamlit run dashboard/streamlit_app.py
+streamlit run dashboard/streamlit_app.py
+
 ```
 
 ---
