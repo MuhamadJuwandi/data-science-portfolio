@@ -99,6 +99,7 @@ Equilibrium-X/
 ├── app.py                    # Streamlit "War Room" Dashboard
 ├── requirements.txt          # Dependencies (nashpy, dowhy, econml, etc.)
 └── README.md
+
 🛠️ Installation & Usage
 1. Clone & Setup
 Bash
