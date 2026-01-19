@@ -3,7 +3,9 @@
 
 <div align="center">
 
-<img src="assets/banner-equilibrium.png" alt="Equilibrium-X Banner" width="100%">
+<img src="https://via.placeholder.com/1200x400/0f172a/38bdf8?text=Equilibrium-X+%7C+Strategic+Pricing+Engine" alt="Equilibrium-X Banner" width="100%">
+
+<br>
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
@@ -91,46 +93,57 @@ Equilibrium-X/
 │   ├── scientist_agent.py    # Causal inference (DoWhy) modeling
 │   └── strategist_agent.py   # Game theory (Nashpy) logic
 ├── 📂data/
-|   |
 │   └── processed/            # Star Schema transformed data
-|
 ├── 📂artifacts/              # Saved models & PDF Reports
-|
 ├── app.py                    # Streamlit "War Room" Dashboard
-├── requirements.txt          # Dependencies (nashpy, dowhy, econml, etc.)
+├── requirements.txt          # Dependencies
 └── README.md
+
+```
 
 ---
 
-##🛠️ **Installation & Usage**
+## 🛠️ Installation & Usage
 
-1. Clone & Setup
+### 1. Clone & Setup
 
-Bash
+Ensure you have Python 3.10+ installed.
+
+```bash
+# Clone the repository
 git clone [https://github.com/MuhamadJuwandi/Equilibrium-X.git](https://github.com/MuhamadJuwandi/Equilibrium-X.git)
 cd Equilibrium-X
+
+# Create Virtual Environment
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install Dependencies
 pip install -r requirements.txt
 
-2. Run the Simulation (War Room)
-Access the dashboard to control Logistic Cost parameters and view Nash Equilibrium outputs:
+```
 
-Bash
+### 2. Run the Simulation (War Room)
+
+Access the dashboard to control Logistic Cost parameters and view Nash Equilibrium outputs.
+
+```bash
 streamlit run app.py
-🔮 Future Improvements
-Reinforcement Learning (RL): Comparing Nash Equilibrium results with Q-Learning agents (with safety constraints).
 
-LLM Integration: Adding a chatbot interface to query market strategy in natural language using RAG.
+```
 
-Dockerization: Packaging the multi-agent system for cloud deployment.
+---
 
-<div align="center">
+## 🔮 Future Improvements
 
-Developed by Muhamad Juwandi
+* [ ] **Reinforcement Learning (RL):** Comparing Nash Equilibrium results with Q-Learning agents.
+* [ ] **LLM Integration:** Adding a chatbot interface to query market strategy in natural language using RAG.
+* [ ] **Dockerization:** Packaging the multi-agent system for cloud deployment.
 
-
-Data Science Student & Graphic Designer
-
+---
 
 </div>
+
+```
+
+```
