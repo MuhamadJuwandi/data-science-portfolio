@@ -100,14 +100,19 @@ Equilibrium-X/
 ├── requirements.txt          # Dependencies (nashpy, dowhy, econml, etc.)
 └── README.md
 
-🛠️ Installation & Usage
+---
+
+##🛠️ **Installation & Usage**
+
 1. Clone & Setup
+
 Bash
 git clone [https://github.com/MuhamadJuwandi/Equilibrium-X.git](https://github.com/MuhamadJuwandi/Equilibrium-X.git)
 cd Equilibrium-X
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
+
 2. Run the Simulation (War Room)
 Access the dashboard to control Logistic Cost parameters and view Nash Equilibrium outputs:
 
