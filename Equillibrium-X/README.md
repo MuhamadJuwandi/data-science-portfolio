@@ -3,7 +3,7 @@
 
 <div align="center">
 
-<img src="https://via.placeholder.com/1200x400/0f172a/38bdf8?text=Equilibrium-X+%7C+Strategic+Pricing+Engine" alt="Equilibrium-X Banner" width="100%">
+<img src="assets/banner-equilibrium.png" alt="Equilibrium-X Banner" width="100%">
 
 <br>
 
