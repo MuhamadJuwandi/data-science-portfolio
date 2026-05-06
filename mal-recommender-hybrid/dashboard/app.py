@@ -1,3 +1,11 @@
+"""
+MAL Hybrid Recommender — Dashboard (standalone runner).
+
+This file is the legacy dashboard entry point.
+For Streamlit Cloud deployment, use generate_insights.py instead.
+To run locally:  streamlit run dashboard/app.py
+"""
+
 import streamlit as st
 import pandas as pd
 import sys
@@ -5,8 +13,10 @@ import os
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Add src to path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+# Add project root to path
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
 
 from src.hybrid_model import HybridRecommender
 
@@ -51,12 +61,13 @@ def load_recommender():
     # Dynamic path relative to this file
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     data_path = os.path.join(base_dir, "data", "processed")
-    recommender = HybridRecommender(data_path=data_path)
+    
     # Check if data exists
     if not os.path.exists(os.path.join(data_path, "anime_processed.parquet")):
         st.error("Processed data not found. Please run preprocessing first.")
         return None
     
+    recommender = HybridRecommender(data_path=data_path)
     recommender.load_data()
     recommender.build_cf_model()
     recommender.build_cb_model()
@@ -86,16 +97,26 @@ if recommender:
             
             # Display in a grid
             cols = st.columns(5)
-            for i, row in recs.iterrows():
+            for i, (_, row) in enumerate(recs.iterrows()):
                 col = cols[i % 5]
                 with col:
                     # Use placeholder if image_url is missing or invalid
-                    img_url = row['image_url'] if row['image_url'] else "https://via.placeholder.com/225x318?text=No+Image"
+                    img_url = row.get('image_url', '')
+                    if not img_url or pd.isna(img_url):
+                        img_url = "https://via.placeholder.com/225x318?text=No+Image"
                     
-                    st.image(img_url, use_column_width=True)
+                    st.image(img_url, use_container_width=True)
                     st.markdown(f"<div class='anime-title'>{row['title']}</div>", unsafe_allow_html=True)
-                    st.markdown(f"⭐ {row['score']:.2f} | 🎯 {row['hybrid_score']:.2f}")
-                    st.caption(row['genre'].split(',')[0] if row['genre'] else "")
+                    
+                    hybrid_score = row.get('hybrid_score', None)
+                    if hybrid_score is not None and not pd.isna(hybrid_score):
+                        st.markdown(f"⭐ {row['score']:.2f} | 🎯 {hybrid_score:.2f}")
+                    else:
+                        st.markdown(f"⭐ {row['score']:.2f}")
+                    
+                    genre = row.get('genre', '')
+                    if genre and not pd.isna(genre):
+                        st.caption(genre.split(',')[0])
 
     # Tabs for EDA
     st.markdown("---")
