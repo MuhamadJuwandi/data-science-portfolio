@@ -5,6 +5,10 @@ import matplotlib.pyplot as plt
 import os
 from PIL import Image
 
+# Resolve the base directory relative to this script file,
+# so that all paths work correctly on Streamlit Cloud as well as locally.
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 def main():
     st.set_page_config(page_title="TEPCO Demand Forecasting", layout="wide")
     
@@ -13,20 +17,22 @@ def main():
     page = st.sidebar.radio("Go to", ["Overview", "EDA & Insights", "Model Performance", "Simulation"])
     
     # Logo
-    if os.path.exists("assets/logo.jpg"):
-        image = Image.open("assets/logo.jpg")
-        st.sidebar.image(image, use_column_width=True)
+    logo_path = os.path.join(BASE_DIR, "assets", "logo.jpg")
+    if os.path.exists(logo_path):
+        image = Image.open(logo_path)
+        st.sidebar.image(image, use_container_width=True)
     
     # Load Data
     @st.cache_data
     def load_data():
-        df = pd.read_csv("data/processed/final_dataset.csv")
+        data_path = os.path.join(BASE_DIR, "data", "processed", "final_dataset.csv")
+        df = pd.read_csv(data_path)
         df['Datetime'] = pd.to_datetime(df['Datetime'])
         return df
 
     try:
         df = load_data()
-    except:
+    except Exception:
         st.error("Data not found. Please run ETL scripts first.")
         return
 
@@ -67,8 +73,9 @@ def main():
         ]
         
         for v in viz_files:
-            if os.path.exists(v):
-                st.image(v, caption=os.path.basename(v), use_column_width=True)
+            viz_path = os.path.join(BASE_DIR, v)
+            if os.path.exists(viz_path):
+                st.image(viz_path, caption=os.path.basename(v), use_container_width=True)
             else:
                 st.warning(f"Visualization {v} not found.")
 
@@ -76,17 +83,20 @@ def main():
         st.header("Model Evaluation")
         
         st.write("### LSTM Forecast (PyTorch)")
-        if os.path.exists("visualizations/lstm_forecast.png"):
-            st.image("visualizations/lstm_forecast.png", caption="LSTM Forecast vs Actual", use_column_width=True)
+        lstm_forecast_path = os.path.join(BASE_DIR, "visualizations", "lstm_forecast.png")
+        if os.path.exists(lstm_forecast_path):
+            st.image(lstm_forecast_path, caption="LSTM Forecast vs Actual", use_container_width=True)
             
-        if os.path.exists("visualizations/lstm_loss.png"):
-            st.image("visualizations/lstm_loss.png", caption="Training Loss", use_column_width=True)
+        lstm_loss_path = os.path.join(BASE_DIR, "visualizations", "lstm_loss.png")
+        if os.path.exists(lstm_loss_path):
+            st.image(lstm_loss_path, caption="Training Loss", use_container_width=True)
             
         st.info("Metrics (MAE, RMSE, MAPE) are calculated during training and logged.")
 
         st.write("### Prophet Forecast (Baseline)")
-        if os.path.exists("visualizations/prophet_forecast.png"):
-             st.image("visualizations/prophet_forecast.png", caption="Prophet Forecast", use_column_width=True)
+        prophet_path = os.path.join(BASE_DIR, "visualizations", "prophet_forecast.png")
+        if os.path.exists(prophet_path):
+             st.image(prophet_path, caption="Prophet Forecast", use_container_width=True)
         else:
             st.warning("Prophet model results not available (Installation issue).")
 

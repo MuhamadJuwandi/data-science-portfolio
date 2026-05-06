@@ -2,13 +2,8 @@ pandas
 numpy
 matplotlib
 seaborn
-requests
-beautifulsoup4
-prophet
-tensorflow
 scikit-learn
 streamlit
 plotly
-meteostat
 openpyxl
-jupyter
+Pillow
